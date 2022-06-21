@@ -52,7 +52,7 @@ class Hotel
 
     def list_rooms
         @rooms.each do |k, v|
-            print "#{k} + #{@rooms[k].available.space}"
+            puts "#{k} #{@rooms[k].available_space}"
         end
     end
 end
