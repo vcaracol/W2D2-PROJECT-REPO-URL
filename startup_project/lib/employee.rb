@@ -8,4 +8,8 @@ class Employee
     end
 
     def pay(amount)
+        @earnings += amount
+    end
+
+    
 end
